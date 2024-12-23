@@ -12,7 +12,7 @@ else {
 }//end else
 
 
-//apply gravity
+//apply gravity to game
 vSpd += grav;
 
 if(place_meeting(x, y+1, o_parent_col)) && (global.jump){
